@@ -1,0 +1,239 @@
+
+
+
+    @charset "UTF-8";
+
+ fieldset#idUsuario{
+        background: url("usuario.png") no-repeat 20% 95%;
+    }
+
+     fieldset#idMensagem{
+        background: url("img.png") no-repeat 95% 95%;
+    }
+
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+font-family: Arial, sans-serif;
+    background-color: #ddd
+
+}
+
+div#interface {
+position: relative; /* transforma a div em um container*/
+    background-color: #fff; /* branco */
+    width: 900px;
+    margin: -7px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;/*espaçamento interno da div */
+}
+
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+ }
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo';
+    color: #606060;
+    font-size: 20pt;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a{
+color: #606060;
+text-decoration: none;
+
+}
+
+
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+}
+/*usa-se hashtag para acessar um id no html */
+nav#menu {
+    display: block; /* transforma tod0 o menu em bloco*/
+}
+
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase; /* converte para maiúsculas*/
+    position: absolute; /* para que o menu possa ser colocado no topo*/
+    top: -18px; /*posicionado ao topo, e o valor negativo para ultrapassar a borda*/
+    right: 25px;
+}
+
+nav#menu li {
+    display: inline-block; /* coloca itens lado a lado*/
+    background-color: #ddd; /* cor de fundo cinza*/
+    padding: 10px; /* aumenta o espaçamento interno da caixa cinza */
+    margin: 2px; /* aumenta o espaçamento externo*/
+    transition: background-color 0.5s;
+}
+
+/* hover para efeito de mouse ao passar sobre o li */
+nav#menu li:hover {
+    background-color: #606060; /*cinza escuro */
+}
+
+
+
+nav#menu h1 {
+    display: none /* ocultar a tag h1 */
+}
+
+/* "a" representa o link*/
+nav#menu a{
+color: #000; /*preto*/
+text-decoration: none;
+transition: color 0.5s;
+transition: text-decoration: underline 1s;
+}
+
+nav#menu a:hover{
+color: #fff;
+text-decoration: underline;
+}
+
+img#icone{
+    position: absolute;
+    left: 750px;
+    top: 95px;
+}
+
+
+
+
+article#noticia-principal h2 {
+    font-size: 13pt;
+    color: #606060;
+    background-color: #ddd;
+    padding: 5px 0px 5px 10px; /*top, right, bottom e left*/
+    margin: 10px 0px 10px 0px;
+}
+
+
+hgroup#cabecalho-noticia-principal h1{
+font-family: 'FonteLogo',sans-serif;
+font-size: 20pt;
+color: #606060;
+margin: 0px;
+}
+
+hgroup#cabecalho-noticia-principal h2{
+font-size: 13pt;
+color: #cecece;
+background-color: #fff;
+margin: 0px;
+margin-left: -10px;
+}
+
+hgroup#cabecalho-noticia-principal h3{
+font-size: 12pt;
+color: #606060;
+}
+
+h3.direita {
+    text-align: right;
+    font-size: 100pt;
+}
+
+
+aside#lateral video{
+    width: 350px;
+    height: 100px;
+}
+
+
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+
+}
+
+footer#rodape p {
+
+    text-align: center;
+}
+form{
+    width: 500px;
+    margin: auto;
+}
+
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+input:hover, textarea:hover {
+    background-color: #ddd;
+}
+
+    legend{
+        color: #888;
+        font-weight: bolder;
+        font-size: 13pt;
+        font-family:
+    }
+
+    fieldset{
+        border-color: #cecece;
+        margin: 20px;
+    }
+
+    fieldset#idSexo {
+        width: 150px;
+    }
+    input#enviar{
+        margin-top: -200px;
+    }
+
+
+article#fc h1{
+    font-family: 'FonteLogo';
+    color: #606060;
+    font-size: 20pt;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+input#enviar{
+    border: 8px solid white;
+    /*solid hidden dotted dashed double groove ridge inset outset*/
+    box-shadow: 1px 1px 4px black;
+}
